@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formularios</title> 
+    <!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  </head>
+<body>
+<style>
+body{
+  background: #728FCE;
+}
+h4{
+    font-family:  Verdana;
+    font-size: 35px;
+    color:#E55451;
+
+}
+
+h2{
+   font-family:  Verdana;
+   font-size: 30px;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #D1D0CE;
+    border-color: gray;
+
+}
+
+
+</style>
+    <br>
+    <div class="container"> 
+    <div class="row">
+    <div class="col-sm-12">
+    <div class="panel panel-default slideLeft">
+          <div class="panel-heading">
+            <div class="panel-title"> <h4 class="text-center"> <strong>SOLICITUD DE EMPLEO</strong></h4></div>
+
+          </div> <!--end del panel heading-->
+          <div class="panel-body">
+        <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+        
+        <div class="col-sm-12">
+
+          <fieldset class="form-group"> <!--Form-group de email --> 
+          
+              <label for="f" class="col-lg-1"> Fecha: </label>
+              <div class="col-lg-3"><input type="date" class="form-control" id="f" name="f"> </div>
+              <div class="col-lg-5"> <input type="text" class="form-control" id="puesto" name="puesto" placeholder="Puesto que solicita y turno de interés:"></div>
+              <div class="col-lg-3"> <input type="number" class="form-control" id="sueldo" name="sueldo" placeholder="Sueldo mensual"> </div>
+      </fieldset> <!--Fin form-group de nombre-->
+        <br>
+        <h2 class="text-center"> Datos Personales </h2>
+      <br>
+      <fieldset class="form-group"> <!--Form-group de email --> 
+          
+              <div class="col-lg-4"><input type="text" class="form-control" id="apM" name="apM" placeholder="Apellido paterno"> </div>
+              <div class="col-lg-4"> <input type="text" class="form-control" id="apM" name="apM" placeholder="Apellido Materno"> </div>
+              <div class="col-lg-4"> <input type="text" class="form-control" id="name" name="name" placeholder="Nombre">  </div>
+      </fieldset> <!--Fin form-group de nombre-->
+
+
+      
+              <fieldset class="form-group"> <!--Form-group de email -->   
+              <label for="f" class="col-lg-2"> Fecha de nacimiento: </label>
+              <div class="col-lg-3"> <input type="date" class="form-control" id="lugarn" name="lugarn" placeholder="Fecha de nacimiento">  </div>
+              <div class="col-lg-3"><input type="text" class="form-control" id="lugarn" name="lugarn" placeholder="Lugar de nacimiento"> </div>
+              <div class="col-lg-2"> <input type="number" class="form-control" id="name" name="name" placeholder="Edad">  </div>
+              <div class="col-lg-1"> <input type="sexo" class="form-control" id="name" name="name" placeholder="Sexo"></div>
+              </fieldset>
+
+              <fieldset class="form-group"> <!--Form-group de email -->   
+              <div class="col-lg-4"><input type="text" class="form-control" id="nacionalidad" name="nacionalidad" placeholder="Nacionalidad">  </div>
+              <div class="col-lg-4"> <input type="text" class="form-control" id="estado" name="estado" placeholder="Estado civil">  </div>
+              <div class="col-lg-2"> <input type="number" class="form-control" id="estatura" name="estatura" placeholder="Estatura">   </div>
+              <div class="col-lg-2"> <input type="text" class="form-control" id="peso" name="peso" placeholder="peso"> </div>
+              </fieldset>
+              <fieldset class="form-group"> <!--Form-group de email -->   
+              <div class="col-lg-10"> <input type="textarea" class="form-control" id="dir" name="dir" placeholder="Dirección">   </div>
+              <div class="col-lg-2"> <input type="number" class="form-control" id="cp" name="cp" placeholder="Código Postal"> </div>
+              </fieldset> 
+              <fieldset class="form-group"> <!--Form-group de email -->   
+              <label for="f" class="col-lg-1"> Teléfonos: </label>
+              <div class="col-lg-3"> <input type="tel" class="form-control" id="telc" name="telc" placeholder="Casa"></div>
+              <div class="col-lg-3"><input type="tel" class="form-control" id="tel" name="tel" placeholder="Celular"></div>
+              <div class="col-lg-5"> <input type="email" class="form-control" id="mail" name="mail" placeholder="Email">  </div>
+              
+              </fieldset>
+
+              <fieldset class="form-group"> <!--Form-group de email -->   
+              
+              <div class="col-lg-6"> <input type="number" class="form-control" id="nacionalidad" name="nacionalidad" placeholder="Clave ISSEMYM:"> </div>
+              <div class="col-lg-6"><input type="number" class="form-control" id="registro" name="registro" placeholder="Registro federal del contribuyente:"></div>
+              
+              </fieldset>
+
+
+
+      <fieldset class="col-lg-3"> <!--Form-group de email -->   
+              <label for="nacimiento"> Vive con: </label>
+              <div class="form-group">
+              <label class="checkbox-inline"><input type="radio" name="optradio"> Padres</label>
+            <label class="checkbox-inline"><input type="radio" name="optradio"> Su familia</label>
+            <label class="checkbox-inline"><input type="radio" name="optradio"> Solo</label>
+              </div>
+            
+      </fieldset> <!--Fin form-group de nombre-->
+          
+
+      
+
+           <fieldset class="col-lg-2"> <!--Form-group de email -->   
+              <label for="licencia"> ¿Tiene licencia de manejo? </label> 
+              <div class="form-group">
+              <label class="checkbox-inline"><input type="radio" name="optradio"> Sí</label>
+            <label class="checkbox-inline"><input type="radio" name="optradio"> No</label>
+              </div>
+            </fieldset> <!--Fin form-group de nombre-->
+
+
+            
+
+           <fieldset class="col-lg-4"> <!--Form-group de email -->   
+              <label for="salud"> ¿Cómo considera su estado de salud? </label>
+              <div class="form-group">
+              <label class="checkbox-inline"><input type="radio" name="optradio"> Bueno</label>
+            <label class="checkbox-inline"><input type="radio" name="optradio"> Regular</label>
+            <label class="checkbox-inline"><input type="radio" name="optradio"> Malo</label>
+              </div>
+            
+      </fieldset> <!--Fin form-group de nombre-->
+
+
+      <fieldset class="col-lg-3"> <!--Form-group de email -->   
+              <label for="enfermedad"> ¿Padece de alguna enfermedad crónica? </label> 
+              <div class="form-group">
+              <label class="checkbox-inline"><input type="radio" name="optradio"> Sí</label>
+            <label class="checkbox-inline"><input type="radio" name="optradio"> No</label>
+            <input type="text" class="form-control" id="enfermedad" name="enfermedad" placeholder="¿cuál?">           
+              </div>
+            </fieldset> <!--Fin form-group de nombre-->
+
+              <fieldset class="form-group col-lg-12"> <!--Form-group de email -->   
+              
+              <div class="col-lg-4"> 
+              <label for="deporte"> ¿Qué deporte practíca? </label>
+              <input type="text" class="form-control" id="deporte" name="deporte">
+              </div>
+
+              <div class="col-lg-4">
+              <label for="pasatiempo"> ¿Pertenece a algún club social o deportivo? </label><!--</div>-->
+              <input type="text" class="form-control" id="cdeporte" name="cdeporte">
+              </div>
+
+              <div class="col-lg-4">
+              <label for="pasatiempo"> ¿Cuál es su pasatiempo favorito? </label><!--</div>-->
+              <input type="text" class="form-control" id="pasatiempo" name="met">
+              </div>
+              
+              </fieldset>
+
+
+           <fieldset class="col-lg-8"> <!--Form-group de email -->   
+          <label for="met"> ¿Cuál es su meta en la vida? </label><!--</div>-->
+              <textarea class="form-control" rows="5"></textarea>
+           </fieldset>
+
+<br>
+<br>
+<div class="col-sm-12">
+<h2 class="text-center"> Datos Familiares </h2>
+<br>
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <th>Nombre</th>
+                <th>Vive</th>
+                <th>Finado</th>
+                <th>Domicilio</th>
+                <th>Ocupación</th>
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" class="form-control" placeholder="Padre" /></td>
+                    
+                    <td>
+                        <select class="form-control">
+                            <option>Sí</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="form-control"/></td>
+                    <td><input type="text" class="form-control""/></td>
+                    <td><input type="text" class="form-control"/></td>
+                   
+                </tr>
+                <tr>
+                    <td><input type="text" class="form-control" placeholder="Madre" /></td>
+                    
+                    <td>
+                        <select class="form-control">
+                            <option>Sí</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="form-control"/></td>
+                    <td><input type="text" class="form-control""/></td>
+                    <td><input type="text" class="form-control"/></td>
+                   
+                </tr>
+                
+                <tr>
+                    <td><input type="text" class="form-control" placeholder="Esposa" /></td>
+                    
+                    <td>
+                        <select class="form-control">
+                            <option>Sí</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="form-control"/></td>
+                    <td><input type="text" class="form-control""/></td>
+                    <td><input type="text" class="form-control"/></td>
+                   
+                </tr>
+                <tr>
+                    <td><input type="text" class="form-control" placeholder="Hija" /></td>
+                    
+                    <td>
+                        <select class="form-control">
+                            <option>Sí</option>
+                            <option>No</option>
+                        </select>
+                    </td>
+                    <td><input type="text" class="form-control"/></td>
+                    <td><input type="text" class="form-control""/></td>
+                    <td><input type="text" class="form-control"/></td>
+                   
+                </tr>
+            </tbody>
+        </table> 
+    </div></div>
+
+<div class="col-md-8 col-md-offset-2 col-sm-12">
+<br>
+        <button type="submit" class="btn btn-danger btn-lg btn-block" id="submit" name="submit">Enviar</button>
+      </div>
+      </form>
+          </div> <!--End del panel body-->
+          </div> <!--End del panel-default-->
+
+        </div> <!--End col-sm-12-->
+    </div> <!--End row-->
+    </div> <!--End container-->
+
+<br>
+
+</body>
+    
+</html>
